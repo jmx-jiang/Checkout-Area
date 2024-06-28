@@ -1,0 +1,43 @@
+h1 {
+  font-family: Helvetica, sans-serif;
+}
+
+div {
+  padding: 10px;
+  background-color: rgb(171, 165, 165);
+  border-radius: 10px;
+}
+
+button {
+  height: 50px;
+  background-color: #24a0ed;
+  border-radius: 10px;
+  font-family: Garamond, serif;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  display: block;
+  margin-top: 10px;
+}
+
+p {
+  max-width: 400px;
+}
+
+.flex {
+  display: flex;
+}
+
+img {
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+}
